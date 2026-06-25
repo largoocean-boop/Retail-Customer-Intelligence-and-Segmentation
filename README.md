@@ -1,60 +1,136 @@
-# Customer Churn Analysis Using Python
+## Retail Customer Intelligence & Segmentation Analysis
 
-## Overview
+## Project Overview
 
-This project analyzes customer churn behavior using Python, Pandas, Matplotlib, and Scikit-Learn. The dataset contains 64,374 customer records and 12 variables related to demographics, subscription behavior, payment history, support interactions, and churn status.
+This project analyzes over **541,000 retail transactions** to identify meaningful customer segments using **RFM (Recency, Frequency, Monetary) Analysis** and **K-Means Clustering**. The objective is to transform raw transactional data into actionable business insights that support customer retention, marketing strategy, and revenue growth.
 
-The goal was to identify the primary drivers of customer churn and build a machine learning model capable of predicting customer attrition.
+## Business Problem
 
-## Tools Used
+Retail organizations generate millions of transaction records every year. While this data contains valuable customer information, it is often difficult to determine:
+
+* Which customers generate the most revenue?
+* Which customers are at risk of leaving?
+* Which customers should receive loyalty rewards?
+* How can marketing campaigns be better targeted?
+
+This project demonstrates how Business Intelligence and Machine Learning techniques can answer these questions through customer segmentation.
+
+## Objectives
+
+* Clean and prepare retail transaction data
+* Perform exploratory data analysis (EDA)
+* Develop executive business KPIs
+* Engineer RFM (Recency, Frequency, Monetary) features
+* Apply K-Means clustering for customer segmentation
+* Generate actionable business recommendations
+
+
+## Dataset
+
+* **Original Records:** 541,909 retail transactions
+* **Cleaned Records:** 397,884 completed transactions
+* **Unique Customers:** 4,338
+* **Countries Represented:** 37
+
+**Note:** The cleaned retail dataset is not included due to GitHub file size limitations. The notebook documents the complete data cleaning process so the results can be reproduced.
+
+
+## Technologies Used
 
 * Python
 * Pandas
 * NumPy
 * Matplotlib
-* Scikit-Learn
+* Scikit-learn
 * Jupyter Notebook
+* RFM Analysis
+* K-Means Clustering
 
-## Key Findings
 
-* Overall churn rate: **47.37%**
-* Monthly contract customers exhibited the highest churn rate.
-* Customers with 5 or more support calls showed significantly higher churn risk.
-* Payment delays greater than approximately 15 days were strongly associated with churn.
-* Higher usage frequency was associated with lower churn rates.
+## Project Workflow
 
-## Machine Learning Model
+1. Data Loading
+2. Data Understanding
+3. Data Cleaning
+4. Feature Engineering
+5. Exploratory Data Analysis
+6. KPI Development
+7. RFM Analysis
+8. K-Means Customer Segmentation
+9. Business Insights
+10. Executive Recommendations
 
-A Logistic Regression model was developed to predict customer churn.
 
-### Model Performance
+## Executive KPIs
 
-* Accuracy: **83.16%**
-* Precision: **82%**
-* Recall: **83%**
-* F1 Score: **82%**
+* **Total Sales:** **$8,911,407.90**
+* **Customers Analyzed:** **4,338**
+* **Countries Served:** **37**
+* **Customer Segments Identified:** **4**
 
-### Top Predictors of Churn
 
-1. Monthly contract length
-2. Number of support calls
-3. Payment delay
+## Customer Segments
+
+### 🏆 Elite VIP Customers
+
+* Highest spending customers
+* Extremely frequent purchasers
+* Most recent purchasing activity
+
+### 💎 High-Value Customers
+
+* Consistently generate significant revenue
+* Strong purchase frequency
+* Excellent candidates for loyalty initiatives
+
+### 👥 Active Customers
+
+* Largest customer group
+* Moderate purchase frequency and spending
+* Opportunity for cross-selling and personalized marketing
+
+### ⚠️ At-Risk Customers
+
+* Long periods of inactivity
+* Low purchase frequency
+* Ideal candidates for customer retention campaigns
+
 
 ## Business Recommendations
 
-* Encourage migration from monthly to annual contracts.
-* Improve first-contact resolution in customer support.
-* Monitor customers with increasing payment delays.
-* Implement retention campaigns for high-risk customers.
-* Increase engagement among low-usage customers.
+* Develop exclusive loyalty programs for Elite VIP Customers.
+* Expand cross-selling and upselling efforts for High-Value Customers.
+* Increase engagement with Active Customers through personalized offers.
+* Launch targeted win-back campaigns for At-Risk Customers.
+* Continue monitoring customer purchasing behavior using RFM metrics.
 
-## Project Structure
 
-* Customer_Churn_Analysis.ipynb
-* customer_churn_dataset-testing-master.csv
-* requirements.txt
-* README.md
+## Repository Contents
 
-## Conclusion
+```text
+Retail_Customer_Segmentation.ipynb
+customer_segments.csv
+requirements.txt
+README.md
+images/
+```
 
-This project demonstrates end-to-end data analytics and machine learning workflows, including exploratory data analysis, visualization, business insight generation, and predictive modeling.
+## Future Enhancements
+
+* Interactive Power BI dashboard
+* Predictive customer lifetime value (CLV)
+* Customer churn prediction
+* Marketing campaign response analysis
+* Automated customer segmentation pipeline
+
+
+## Author
+
+**Edward-Walker Benifield, MBA**
+
+Business Intelligence Analyst
+
+**Core Skills**
+
+Python • Power BI • SQL • Tableau • Excel • Data Visualization • KPI Reporting • Business Intelligence • Machine Learning
+
