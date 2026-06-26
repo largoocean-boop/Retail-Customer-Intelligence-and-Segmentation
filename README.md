@@ -125,7 +125,7 @@ This project demonstrates how Business Intelligence and Machine Learning techniq
 
 ### Top 10 Customers by Revenue
 
-![Top Customers](images/top_customers.jpeg)
+![Top 10 Customers by Revenue](images/top_revenue_customers.jpeg)
 
 ### Top 10 Countries by Sales
 
