@@ -104,6 +104,33 @@ This project demonstrates how Business Intelligence and Machine Learning techniq
 * Launch targeted win-back campaigns for At-Risk Customers.
 * Continue monitoring customer purchasing behavior using RFM metrics.
 
+  
+## Project Visualizations
+
+### Elbow Method
+
+![Elbow Method](images/elbow_method.jpeg)
+
+### Customer Segmentation
+
+![Customer Segmentation](images/customer_segments.jpeg)
+
+### Average RFM Metrics
+
+![Average RFM Metrics](images/rfm_summary.jpeg)
+
+### Cluster Distribution
+
+![Cluster Distribution](images/cluster_distribution.jpeg)
+
+### Top 10 Customers by Revenue
+
+![Top Customers](images/top_customers.jpeg)
+
+### Top 10 Countries by Sales
+
+![Top Countries](images/top_countries.jpeg)
+
 
 ## Repository Contents
 
